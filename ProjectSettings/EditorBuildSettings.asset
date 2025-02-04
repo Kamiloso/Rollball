@@ -1,0 +1,128 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/screens/main_menu.unity
+    guid: ac096891a3481a2478b23eaad9df2e30
+  - enabled: 1
+    path: Assets/Scenes/no_used_levels/win_screen.unity
+    guid: 36b13a0441d25ce4cb7a7b2198f606bb
+  - enabled: 1
+    path: Assets/Scenes/no_used_levels/rollball_world.unity
+    guid: 5c16b28d122a3cf4c9fcbb5f0f5bdc8c
+  - enabled: 1
+    path: Assets/Scenes/no_used_levels/level1.unity
+    guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/bonus_levels/level_mpt1.unity
+    guid: 2175872a5dd923e4494380b57c56a26c
+  - enabled: 1
+    path: Assets/Scenes/bonus_levels/levelR1.unity
+    guid: d033226d55c57bf45a4677eb57f2aa82
+  - enabled: 1
+    path: Assets/Scenes/screens/bonus_win_screen.unity
+    guid: ad8e9bbd020751040a26140dba938716
+  - enabled: 1
+    path: Assets/Scenes/normal_levels/level_0001.unity
+    guid: 77e95fdb837e0de42b1a5e60c0ce64d9
+  - enabled: 1
+    path: Assets/Scenes/normal_levels/level_0002.unity
+    guid: 24912f7bd5e818243a3170f0fe6ca712
+  - enabled: 1
+    path: Assets/Scenes/normal_levels/level_0003.unity
+    guid: b2a19ad5f19e26943b4c0b7bc7f468a8
+  - enabled: 1
+    path: Assets/Scenes/normal_levels/level_0004.unity
+    guid: 88ea6843d6d08854b94bbde611f8ed61
+  - enabled: 1
+    path: Assets/Scenes/normal_levels/level_0005.unity
+    guid: 789480e6d3c77ef49a6688b1ea0935c8
+  - enabled: 1
+    path: Assets/Scenes/normal_levels/level_0006.unity
+    guid: 8d23c1403ea761d4aa2a8abc086d5af1
+  - enabled: 1
+    path: Assets/Scenes/normal_levels/level_0007.unity
+    guid: e3a5adc635a71e2409d9f47d57886f2e
+  - enabled: 1
+    path: Assets/Scenes/normal_levels/level_0008.unity
+    guid: 6f8eedba7d5bb5143a07513446f022b9
+  - enabled: 1
+    path: Assets/Scenes/normal_levels/level_0009.unity
+    guid: a4c521f345bc4d14b8af28609557cec3
+  - enabled: 1
+    path: Assets/Scenes/normal_levels/level_0010.unity
+    guid: ef5fc3b117e558643a032b9435f7c21c
+  - enabled: 1
+    path: Assets/Scenes/normal_levels/level_0011.unity
+    guid: 00a752e508e85ce4491be0bd1c288eab
+  - enabled: 1
+    path: Assets/Scenes/normal_levels/level_0012.unity
+    guid: 29a0e7bad58524b419c5d4fee5a02c6b
+  - enabled: 1
+    path: Assets/Scenes/normal_levels/level_0013.unity
+    guid: a69e73e4bf45a8745b633f489940b5f8
+  - enabled: 1
+    path: Assets/Scenes/normal_levels/level_0014.unity
+    guid: 7ab9580e1ce273747bc94c7189f0dc1d
+  - enabled: 1
+    path: Assets/Scenes/normal_levels/level_0015.unity
+    guid: 45732af7acaecc842a5ecc7e00eb47f1
+  - enabled: 1
+    path: Assets/Scenes/normal_levels/level_0016.unity
+    guid: 5f40f8bfa3aad0b4197764c28e3f9e45
+  - enabled: 1
+    path: Assets/Scenes/normal_levels/level_0017.unity
+    guid: 4ec7c5edbd3e05e4c8e2402b5be103e4
+  - enabled: 1
+    path: Assets/Scenes/normal_levels/level_0018.unity
+    guid: 01289e7e13b1f0f448a78ea2729d20bd
+  - enabled: 1
+    path: Assets/Scenes/normal_levels/level_0019.unity
+    guid: e5a79952b13433e4d9934e82fafb6ed5
+  - enabled: 1
+    path: Assets/Scenes/normal_levels/level_0020.unity
+    guid: bccd420d1d9a1e54099fec4f60cc66a7
+  - enabled: 1
+    path: Assets/Scenes/normal_levels/level_0021.unity
+    guid: e6a4315665eb5184990154a2c6a8fc2f
+  - enabled: 1
+    path: Assets/Scenes/normal_levels/level_0022.unity
+    guid: fba33377e42d6f546b01928fed5092d6
+  - enabled: 1
+    path: Assets/Scenes/normal_levels/level_0023.unity
+    guid: c2c51a03c056427438484f0df956f56b
+  - enabled: 1
+    path: Assets/Scenes/normal_levels/level_0024.unity
+    guid: bd12949ae05c7e840b35de0987807f3e
+  - enabled: 1
+    path: Assets/Scenes/normal_levels/level_0025.unity
+    guid: 876eb5bffc35a6c4db8af7f7438f2ae3
+  - enabled: 1
+    path: Assets/Scenes/normal_levels/level_0026.unity
+    guid: dbbbe95bd5dd41440b4fb4cc7d82cde0
+  - enabled: 1
+    path: Assets/Scenes/normal_levels/level_0027.unity
+    guid: 837f5ed106675734dac680183951e1b6
+  - enabled: 1
+    path: Assets/Scenes/normal_levels/level_0028.unity
+    guid: 5bc18088cacdcda43a9954806c6af55a
+  - enabled: 1
+    path: Assets/Scenes/normal_levels/level_0029.unity
+    guid: 3f0ec48e61898324fada46419dd57dfd
+  - enabled: 1
+    path: Assets/Scenes/normal_levels/level_0030.unity
+    guid: 7ca12d41d539bb943af164d8c67987ab
+  - enabled: 1
+    path: Assets/Scenes/normal_levels/level_0031.unity
+    guid: 89160ef9d8322674a8f81d855e7458f9
+  - enabled: 1
+    path: Assets/Scenes/normal_levels/level_0032.unity
+    guid: 7b2970e4b4e47d0458e2863b2fc95546
+  - enabled: 1
+    path: Assets/Scenes/screens/end_screen.unity
+    guid: 5b8e6529ad050974a8f5ca52261a42f1
+  m_configObjects: {}
