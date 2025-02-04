@@ -69,4 +69,14 @@ public class run_control : MonoBehaviour {
 			SceneManager.LoadScene("main_menu");
 		}
 	}
+
+    private void Start()
+    {
+        AudioSource[] AllOnScene = FindObjectsOfType<AudioSource>();
+        foreach (AudioSource OnScene in AllOnScene)
+        {
+            if (OnScene.GetComponent<Transform>().name == "start2")
+                OnScene.volume *= 0.6f;
+        }
+    }
 }
