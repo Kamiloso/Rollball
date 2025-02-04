@@ -45,12 +45,12 @@ public class run_control : MonoBehaviour {
 
 		if((klawisz2==true)&&(obrot.velocity.x > -4f))
 		{
-			obrot.velocity += new Vector3(-0.4f,0,0);
+			obrot.velocity += new Vector3(-0.5f,0,0) * Time.deltaTime * 50f;
 			//obrot.AddTorque(Vector3.forward*10);
 		}
 		if((klawisz4==true)&&(obrot.velocity.x < 4f))
 		{
-			obrot.velocity += new Vector3(0.4f,0,0);
+			obrot.velocity += new Vector3(0.5f,0,0) * Time.deltaTime * 50f;
 			//obrot.AddTorque(-Vector3.forward*10);
 		}
 

@@ -199,9 +199,4 @@ public class button : MonoBehaviour {
 			startButton_end.interactable = true;
 		}			
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
 }

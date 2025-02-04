@@ -7,6 +7,7 @@ using System.IO;
 public class complete : MonoBehaviour
 {
 	public int aktualny_level;
+	public string skieruj_gdzie_indziej = "";
 	string levele;
 	int levele_int;
 	void OnTriggerEnter(Collider collision)
@@ -39,7 +40,10 @@ public class complete : MonoBehaviour
 			}
 
 			//SceneManager.LoadScene("win_screen");
-			SceneManager.LoadScene (SceneManager.GetActiveScene().buildIndex + 1);
+			if (skieruj_gdzie_indziej == "")
+				SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+			else
+				SceneManager.LoadScene(skieruj_gdzie_indziej);
 		}
 	}
 }

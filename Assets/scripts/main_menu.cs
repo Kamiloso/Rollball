@@ -5,11 +5,23 @@ using UnityEngine.SceneManagement;
 
 public class main_menu : MonoBehaviour
 {
+	public Transform level_T_button;
+	public Vector3 level_T_delta_position;
+	bool already_showed_T = false;
+
 	public void Start()
 	{
 		Screen.fullScreen = true;
 	}
-	public void level_exit()
+    public void Update()
+    {
+        if(!already_showed_T && Input.GetKeyDown(KeyCode.T))
+		{
+			level_T_button.localPosition += level_T_delta_position;
+			already_showed_T = true;
+		}
+    }
+    public void level_exit()
 	{
 		Application.Quit();
 		Debug.Log("Wybrano poziom exit");
